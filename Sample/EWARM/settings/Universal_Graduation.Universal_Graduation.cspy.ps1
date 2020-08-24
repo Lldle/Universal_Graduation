@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\Universal_Graduation\Sample\EWARM\settings\Universal_Graduation.Universal_Graduation.general.xcl" --backend -f "D:\Universal_Graduation\Sample\EWARM\settings\Universal_Graduation.Universal_Graduation.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\Universal_Graduation\Universal_Graduation\Sample\EWARM\settings\Universal_Graduation.Universal_Graduation.general.xcl" --backend -f "D:\Universal_Graduation\Universal_Graduation\Sample\EWARM\settings\Universal_Graduation.Universal_Graduation.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\Universal_Graduation\Sample\EWARM\settings\Universal_Graduation.Universal_Graduation.general.xcl" --debug_file=$debugfile --backend -f "D:\Universal_Graduation\Sample\EWARM\settings\Universal_Graduation.Universal_Graduation.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "D:\Universal_Graduation\Universal_Graduation\Sample\EWARM\settings\Universal_Graduation.Universal_Graduation.general.xcl" --debug_file=$debugfile --backend -f "D:\Universal_Graduation\Universal_Graduation\Sample\EWARM\settings\Universal_Graduation.Universal_Graduation.driver.xcl" 
 }

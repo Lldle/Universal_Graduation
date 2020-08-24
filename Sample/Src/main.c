@@ -44,7 +44,7 @@
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-float graph_data[2][500];
+float graph_data[2][98];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -91,10 +91,10 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 Calculate_Graduation(100);
-for (int i = 0; i <500; i++)
+for (int i = 0; i <97; i++)
 {
-  graph_data[0][i] = (float) i * 10;
-  graph_data[1][i] = Get_Value_from_Grad ( i * 10 );
+  graph_data[0][i] = (float) i * 0.03125;
+  graph_data[1][i] = Get_Value_from_Grad ( i * 0.03125 );
 }
 
   /* USER CODE END 2 */

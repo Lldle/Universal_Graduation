@@ -6,6 +6,9 @@
   * @attention
   * You can use it but you should read README file firstly. 
   * Made by Lidle for you ^-^
+  * 
+  *  EMAIL:  shkitun-pavel@yandex.ru
+  * 
   ******************************************************************************
   */
 
@@ -13,8 +16,8 @@
 
 // Graduation array
 float Graduation_Memory_Table [ 3 ] [ Param_point_count ] = {                             //
--1000, 0,        1000,        2000,        3000,        4000,       5000,        6000,    // This data are used for tests.
-   -5, 0, 0.297301779, 0.672728432, 1.321586352, 2.856189949, 8.32207129, 45.15943348,    // You will save your grad table here. 
+-1000, 0,         0.5,           1,         1.5,           2,        2.5,           3,    // This data are used for tests.
+   -5, 0,           1,           3,           6,           9,         14,          16,    // You will save your grad table here. 
    -5, 0, 0.297301779, 0.672728432, 1.321586352, 2.856189949, 8.32207129, 45.15943348     //  
 };                                                                                        
 
@@ -103,6 +106,9 @@ float Get_Value_from_Grad ( float INPUT_VALUE)
   {
        Input_Polinom_Table_Value++;
   }
+  //lamers fix
+  if (Input_Polinom_Table_Value >= &Graduation_Memory_Table[0][Param_point_count - 1]) return Graduation_Memory_Table [ 1 ] [ Param_point_count - 2];
+  
   
   //recalculated input value 1 lower middle
   float * Bezier_input_value_1_High = Input_Polinom_Table_Value + 1;

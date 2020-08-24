@@ -20,15 +20,15 @@
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
     </StLinkDriver>
     <DebugChecksum>
-        <Checksum>2644695525</Checksum>
+        <Checksum>2942181315</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
         <StopOnThrow>_ 0</StopOnThrow>
     </Exceptions>
     <Disassembly>
-        <MixedMode>1</MixedMode>
         <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
     </Disassembly>
     <CodeCoverage>
         <Enabled>0</Enabled>
@@ -127,12 +127,14 @@
         <mode>0</mode>
     </DisassembleMode>
     <Breakpoints2>
-        <Bp0>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Universal_Graduation_by_Lidle\Universal_Graduation.c}.145.1" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp0>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\Universal_Graduation_by_Lidle\Universal_Graduation.c}.149.3" 0 0 1 "" 0 "" 0</Bp0>
         <Count>1</Count>
     </Breakpoints2>
     <Aliases>
         <A0>_ "D:\Universal_Graduation\EWARM\startup_stm32f446xx.s" ""</A0>
-        <Count>1</Count>
+        <A1>_ "D:\Universal_Graduation\Sample\Src\main.c" ""</A1>
+        <A2>_ "D:\Universal_Graduation\Sample\Src\stm32f4xx_it.c" ""</A2>
+        <Count>3</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
 </settings>

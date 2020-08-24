@@ -6,6 +6,9 @@
   * @attention
   * You can use it but you should read README file firstly. 
   * Made by Lidle for you ^-^
+  * 
+  *  EMAIL:  shkitun-pavel@yandex.ru
+  * 
   ******************************************************************************
   */
 #ifndef __Universal_Graduation

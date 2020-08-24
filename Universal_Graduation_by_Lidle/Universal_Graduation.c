@@ -6,6 +6,9 @@
   * @attention
   * You can use it but you should read README file firstly. 
   * Made by Lidle for you ^-^
+  * 
+  *  EMAIL:  shkitun-pavel@yandex.ru
+  * 
   ******************************************************************************
   */
 
@@ -103,6 +106,9 @@ float Get_Value_from_Grad ( float INPUT_VALUE)
   {
        Input_Polinom_Table_Value++;
   }
+  //lamers fix
+  if (Input_Polinom_Table_Value >= &Graduation_Memory_Table[0][Param_point_count - 1]) return Graduation_Memory_Table [ 1 ] [ Param_point_count - 2];
+  
   
   //recalculated input value 1 lower middle
   float * Bezier_input_value_1_High = Input_Polinom_Table_Value + 1;
