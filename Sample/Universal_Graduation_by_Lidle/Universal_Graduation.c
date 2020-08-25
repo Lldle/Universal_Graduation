@@ -5,7 +5,7 @@
   ******************************************************************************
   * @attention
   * You can use it but you should read README file firstly. 
-  * Made by Lidle for you ^-^
+  * Made by Lldle for you ^-^
   * 
   *  EMAIL:  shkitun-pavel@yandex.ru
   * 
