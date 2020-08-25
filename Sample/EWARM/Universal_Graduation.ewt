@@ -1198,10 +1198,10 @@
             <group>
                 <name>Universal_Graduation</name>
                 <file>
-                    <name>$PROJ_DIR$\..\Universal_Graduation_by_Lidle\Universal_Graduation.c</name>
+                    <name>$PROJ_DIR$\..\Universal_Graduation_by_Lldle\Universal_Graduation.c</name>
                 </file>
                 <file>
-                    <name>$PROJ_DIR$\..\Universal_Graduation_by_Lidle\Universal_Graduation.h</name>
+                    <name>$PROJ_DIR$\..\Universal_Graduation_by_Lldle\Universal_Graduation.h</name>
                 </file>
             </group>
             <file>

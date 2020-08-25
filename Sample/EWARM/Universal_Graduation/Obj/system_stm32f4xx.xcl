@@ -20,7 +20,7 @@ D:\Universal_Graduation\Universal_Graduation\Sample\EWARM/../Drivers/CMSIS/Devic
 -I
 D:\Universal_Graduation\Universal_Graduation\Sample\EWARM/../Drivers/CMSIS/Include
 -I
-D:\Universal_Graduation\Universal_Graduation\Sample\EWARM\..\Universal_Graduation_by_Lidle
+D:\Universal_Graduation\Universal_Graduation\Sample\EWARM\..\Universal_Graduation_by_Lldle
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc
 -I
@@ -36,7 +36,7 @@ D:\Universal_Graduation\Universal_Graduation\Sample\Drivers\CMSIS\Device\ST\STM3
 -I
 D:\Universal_Graduation\Universal_Graduation\Sample\Drivers\CMSIS\Include
 -I
-D:\Universal_Graduation\Universal_Graduation\Sample\Universal_Graduation_by_Lidle
+D:\Universal_Graduation\Universal_Graduation\Sample\Universal_Graduation_by_Lldle
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

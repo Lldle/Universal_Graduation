@@ -1,6 +1,6 @@
 Universal_Graduation.pbi: \
-  D:\Universal_Graduation\Universal_Graduation\Sample\Universal_Graduation_by_Lidle\Universal_Graduation.c \
-  D:\Universal_Graduation\Universal_Graduation\Sample\Universal_Graduation_by_Lidle/Universal_Graduation.h \
+  D:\Universal_Graduation\Universal_Graduation\Sample\Universal_Graduation_by_Lldle\Universal_Graduation.c \
+  D:\Universal_Graduation\Universal_Graduation\Sample\Universal_Graduation_by_Lldle/Universal_Graduation.h \
   D:\Universal_Graduation\Universal_Graduation\Sample\EWARM/../Inc\main.h \
   D:\Universal_Graduation\Universal_Graduation\Sample\EWARM/../Drivers/STM32F4xx_HAL_Driver/Inc\stm32f4xx_hal.h \
   D:\Universal_Graduation\Universal_Graduation\Sample\EWARM/../Inc\stm32f4xx_hal_conf.h \
